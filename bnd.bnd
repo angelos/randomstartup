@@ -1,0 +1,10 @@
+Bundle-SymbolicName: net.luminis.tools.randomstartup
+-buildpath: org.apache.felix.shell,\
+	org.apache.felix.shell.tui,\
+	osgi.core
+Bundle-Version: 1.0.0
+-runbundles: org.apache.felix.shell,\
+	org.apache.felix.shell.tui
+-runfw: org.apache.felix.framework
+Bundle-Activator: net.luminis.tools.randomstartup.Activator
+Private-Package: net.luminis.tools.randomstartup
