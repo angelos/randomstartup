@@ -3,6 +3,8 @@ RandomStartup
 
 A very simple OSGi bundle that provides a Felix Shell command to start all non-active bundles in a random, but reproducible manner. I use it to test the robustness of OSGi-based applications, in particular to root out startup-dependencies between bundles.
 
+You can download this as a [precompiled bundle](https://github.com/downloads/angelos/Random-Startup/net.luminis.tools.randomstartup.jar).
+
 Installation
 ------------
 After installation, a new [Apache Felix Shell](http://felix.apache.org/site/apache-felix-shell.html) command will be available, `startrandom`.
