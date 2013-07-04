@@ -12,9 +12,9 @@ After installation, a new [Apache Felix Shell](http://felix.apache.org/site/apac
 Usage
 -----
 
-    startrandom <id>
+    startrandom <seed>
     
-will start all bundles which are currently not `ACTIVE` in a random order. The `<id>` you pass in is the seed for the randomizer, so, for a framework in the same state (same bundles, installed with same ids, and the same bundles active), you can reproduce the startup order.
+will start all bundles which are currently not `ACTIVE` in a random order. The `<seed>` you pass in is the seed for the randomizer, so, for a framework in the same state (same bundles, installed with same ids, and the same bundles active), you can reproduce the startup order.
     
 
 The project
